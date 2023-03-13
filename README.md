@@ -6,6 +6,6 @@ A devops project that demonstrate a simple pipeline using Jenkins, Ansible and D
  - trigger the pipeline in Jenkins
  - Jenkins makes an ssh connection to Ansible
  - Ansible builds the docker image and push it to docker hub
- - Webapp server pull the image from docker hub and run it to execute the container
+ - In the playbook file, Ansible server will pull the image from docker hub and run it in the Webapp server
  - The app is live in the Webapp server
  
