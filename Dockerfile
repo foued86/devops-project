@@ -1,6 +1,5 @@
-FROM  centos:latest
+FROM  centos:7
 MAINTAINER jbalifoued@gmail.com
-RUN yum update
 RUN yum install -y httpd \
  zip\
  unzip
