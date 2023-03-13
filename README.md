@@ -1,6 +1,6 @@
 # devops-project
 A devops project that demonstrate a simple pipeline using Jenkins, Ansible and Docker:
-Pre-requistes: 
+## Pre-requistes: 
 - Having 3 EC2 server on AWS (Jenkins server, Ansible server, Webapp server)
  - push code to guithub
  - trigger the pipeline in Jenkins
